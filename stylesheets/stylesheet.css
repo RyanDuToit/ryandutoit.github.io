@@ -12,7 +12,7 @@ dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+figure, figcaption, footer, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -21,6 +21,52 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+}
+header {
+	margin: 50px;
+	padding-top: 00px;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align:baseline;
+}
+		.section-wrapper {
+			margin-top: -50px;
+			padding-top: 50px;
+		}
+
+		.section-wrapper:first-child .section {
+			padding-top: 100px;
+		}
+
+		#nav {
+			background: #000;
+			left: 0;
+			list-style: none;
+			overflow: hidden;
+			padding-top: 9px;
+			position: fixed;
+			right: 0;
+			text-align: center;
+			top: 0;
+		}
+#nav li {
+	display: inline-block;
+	margin-bottom: 0;
+	}
+#nav a {
+	background: #000;
+	color: #fff;
+	display: block;
+	padding: 10px;
+}
+#nav a:hover {
+	background: none;
+	color: #dedede;
+}
+#nav .current a {
+	background: #fff;
+	color: #000;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
