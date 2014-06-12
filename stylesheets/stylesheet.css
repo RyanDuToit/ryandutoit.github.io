@@ -30,26 +30,26 @@ header {
 	font: inherit;
 	vertical-align:baseline;
 }
-		.section-wrapper {
-			margin-top: -50px;
-			padding-top: 50px;
-		}
+.section-wrapper {
+	margin-top: -50px;
+	padding-top: 50px;
+}
 
-		.section-wrapper:first-child .section {
-			padding-top: 100px;
-		}
+.section-wrapper:first-child .section {
+	padding-top: 100px;
+}
 
-		#nav {
-			background: #000;
-			left: 0;
-			list-style: none;
-			overflow: hidden;
-			padding-top: 9px;
-			position: fixed;
-			right: 0;
-			text-align: center;
-			top: 0;
-		}
+#nav {
+	background: #000;
+	left: 0;
+	list-style: none;
+	overflow: hidden;
+	padding-top: 9px;
+	position: fixed;
+	right: 0;
+	text-align: center;
+	top: 0;
+}
 #nav li {
 	display: inline-block;
 	margin-bottom: 0;
