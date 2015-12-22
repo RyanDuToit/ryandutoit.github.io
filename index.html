@@ -10,14 +10,14 @@
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    <title>Ryandutoit.github.io by RyanDuToit</title>
+    <title>Ryan DuToit</title>
   </head>
 
   <body>
     <ul id="nav">
-      <li class="current"><a href="#section-1">about</a></li>
+      <li><a href="#section-1">about</a></li>
       <li><a href="#section-2">projects</a></li>
-      <li><a href="resources/ryan_dutoit_cv.pdf">CV</a></li>
+      <li><a href="#section-3">published works</a></li>
      </ul>
 
     <div id="container">
@@ -30,8 +30,8 @@
 
 		<div class="section-wrapper" id="section-1">
 		<h2>
-<a name="about" class="anchor" href="#section-1"><span class="octicon octicon-link"></span>Computer Engineer, Android Hacker, Game of Thrones Nerd</a></h2>
-<p>Hello, I'm a Ph.D. student at the University of Minnesota, Department of Computer Science and Engineering. 
+<a name="about" class="anchor" href="#section-1"><span class="octicon octicon-link"></span>Engineer, Hacker, Scifi Nerd</a></h2>
+<p>I'm a Ph.D. student at the University of Minnesota, Department of Computer Science and Engineering.
    I currently work as a research assistant in the MARS lab <a name="mars_website" href="http://mars.cs.umn.edu">mars.cs.umn.edu</a></p>
    </div>
 <hr>
@@ -40,14 +40,38 @@
  <a name="projects" class="anchor" href="#section-2">Projects</a>
 </h2>
 <h3>
-  Real-Time Pose Estimation on a Cell-Phone
+  Real-Time Pose Estimation on a Mobile Device
 </h3>
 <p>
-  I have spent time designing, implementing, and testing estimation algorithms on a cell phone. Our group has implemented real time visual intertial navigation systems on mobile platforms, including a Samsung S4, google glass, and the Project Tango prototype.
+  I have spent time designing, implementing, and testing real-time, 6DoF pose-estimation algorithms on a mobile device. Our group has contributed to the state-of-the-art in  Vision-aided Inertial Navigation Systems (VINS) on mobile platforms, including a Samsung S4, Google Glass, and the Project Tango prototype. <a href="http://mars.cs.umn.edu/research/rollingshutter_vins.html">[project page link]</a>
+</p>
+
+<h3>
+  Cooperative Mapping
+</h3>
+<p>
+  A major problem in computer-vision and robotics is map generation from visual-inertial data. I have contributed to a cooperative mapping (CM) algorithm, which fuses data collected from several users and/or robots, and generates a 3D map of point and line features.  <a href="http://mars.cs.umn.edu/research/cooperative_mapping.html">[project page link]</a>  <a href="http://www.onionmaps.info">[online map visualization]</a>
+</p>
+<p>
+  <h3>
+    Map-based localization
+  </h3>
+  <p>
+    Fusing the two projects above, I have worked on leveraging a pre-built map (from CM) to enhance real-time pose estimation. Map-based localization enhances the performance of standard VINS, and allows the user to see their pose on a blueprint of the previously mapped building using only visual and inertial data. <a href="http://mars.cs.umn.edu/research/map_based_localization.html">[project page link]</a>
+  </p>
+  <p>
+
 </p>
 </div>
 <hr>
- <a name="CV_LINK" href="resources/ryan_dutoit_cv.pdf">View My CV</a>
+<div class="section-wrapper" id="section-3">
+<h3> Conference Publications </h3>
+<div style="font-size:14px">
+<strong>C2. </strong>C.X. Guo, D.G. Kottas, R.C. DuToit, A. Ahmed, R. Li, and S.I. Roumeliotis, <strong>"Efficient Visual-Inertial Navigation using a Rolling-Shutter Camera with Inaccurate Timestamps"</strong>, Robotics: Science and Systems (RSS'14), Berkeley, California, July 12-16, 2014 (<a href="http://www-users.cs.umn.edu/~stergios/papers/RSS-2014-VINS-RS-TS-Chao-etal.pdf">pdf</a>).</li>
+<p><p>
+<strong>C1. </strong>D.G. Kottas, R.C. DuToit, A. Ahmed, C.X. Guo, G. Georgiou, R. Li, and S.I. Roumeliotis, <strong>"A Resource-aware Vision-aided Inertial Navigation System for Wearable and Portable Computers"</strong>, Workshop: Long Term Autonomy, IEEE International Conference on Robotics and Automation (ICRA'14), Hong Kong, China, May 31 - June 5, 2014 (<a href="http://www-users.cs.umn.edu/~stergios/papers/ICRA-2014-W-Resource-Aware-VINS.pdf">pdf</a>).
+</div>
+</div>
 <h2>
 </div>
       </div>
