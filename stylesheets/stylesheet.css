@@ -125,7 +125,7 @@ a:hover {
   margin-bottom: 50px;
   font-family: 'Chivo', 'Helvetica Neue', Helvetica, Arial, serif; font-weight: 900;
   letter-spacing: -1px;
-  font-size: 48px;
+  font-size: 72px;
   color: #303030;
   line-height: 1.2;
 }
@@ -139,10 +139,11 @@ a:hover {
   float: left;
 }
 .headerimg {
-  vertical-align:middle;
-  margin-top: 0px;
+  vertical-align:top;
+  margin-top: -72px;
+  padding: 0px;
   margin-bottom: 0px;
-  height: 96px;
+  height: 144px;
   text-align: right;
 }
 header h2 {
@@ -415,8 +416,10 @@ footer a:hover {
 }
 .projectimg {
 	margin: 1px;
-	padding: 1px;
+	padding: 10px;
 	width: 100%;
+/*        margin:0 auto; */
+        text-align:center;
 }
 /* MISC */
 .clearfix:after {
